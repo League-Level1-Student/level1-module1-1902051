@@ -11,7 +11,7 @@ public class RaceCarRunner {
 		/* Do the following things without changing the RaceCar class */
 		
 		// 1. Create a RaceCar and place it in 5th position
-	
+	new RaceCar(brand, 5)
 		// 2. Print the RaceCar's position in the race
 
 		// 3. Crash the RaceCar
