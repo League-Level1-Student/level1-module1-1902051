@@ -1,4 +1,4 @@
-package _05_vault;
+
 
 public class Platypus {
     private String name;

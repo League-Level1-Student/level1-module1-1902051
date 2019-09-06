@@ -12,7 +12,7 @@ package _04_popcorn;
  * Ask the user for the flavor of the popcorn and the number of minutes to cook it.
  * Don't change the existing methods.
  */
-
+ 
 class Microwave {
 	private int cookTime;
 	Popcorn thingToBeCooked;
@@ -45,7 +45,7 @@ class Microwave {
 
 public class Popcorn {
 
-	private int kernels = 20;
+	private int kernels = 200;
 	private String flavor;
 	private boolean isCooked = false;
 
@@ -53,7 +53,7 @@ public class Popcorn {
 		this.flavor = flavor;
 		System.out.println("Popcorn says: making package of " + this.flavor + " popcorn.");
 	}
-
+ 
 	public void eat() {
 		if (isCooked) {
 			System.out.println("Popcorn says: Time to eat popcorn!");
